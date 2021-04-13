@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: beige;
+  height: 700px;
+}
+.sty {
+  display: flex;
+  padding-left: 20px;
+  margin-top: 150px;
+  margin-left: 25px;
+}
