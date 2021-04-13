@@ -6,14 +6,15 @@ import Home from "./componentes/Home/Home";
 import Contact from "./componentes/Contact/Contact";
 import Blog from "./componentes/Blog/Blog";
 import Login from "./componentes/Login/Login";
+import { NavLink } from "react-router-dom";
 
 export default function App() {
   return (
     <Router>
-      <div className="style">
+      <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/Home">Home</Link>
           </li>
           <li>
             <Link to="/Destination">Destination</Link>
@@ -28,9 +29,6 @@ export default function App() {
             <Link to="/Login">Login</Link>
           </li>
         </ul>
-
-        <hr />
-
         <Switch>
           <Route exact path="/">
             <Home />
